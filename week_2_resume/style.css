@@ -8,7 +8,6 @@ h1 {font-family: "Helvitica", serif;}
 
 .container {
 	width:450px;
-	height: 600px;
 	padding:20px;
 	margin-top:40px;
 	margin-left:auto;
@@ -66,7 +65,7 @@ img {
 
 }
 
-p, .bullets {
+p {
 	margin-left: 15px;
 	color: #ffffff;
 	font-size: 14px;
@@ -76,4 +75,12 @@ p, .bullets {
 #space {
 	margin-left: 1px;
 	}
+
+	.bullet li {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: "Helvitica", sans-serif;
+	line-height: 1.2;
+
+}
 

@@ -1,0 +1,36 @@
+h1{
+
+}
+
+.container {
+	width:500px;
+}
+
+ul {
+	background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: center;
+    }
+
+li {
+	display: inline;
+}
+
+img {
+
+	width: 75%;
+	height: 25%
+}
+
+.divider { 
+	.divider {
+	border: g>ey  1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a {
+	color: red;
+	margin-left: 0;
+}
