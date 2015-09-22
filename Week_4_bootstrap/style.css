@@ -1,0 +1,30 @@
+.jumbotron {
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 25px;
+
+}
+
+.margin-top-20 {
+
+	margin-top: 20px;
+
+}
+
+.container {
+
+	background-color: black;
+	width: 100%;
+}
+
+h3 {
+	color: white;
+}
+
+.row {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.divider
+
