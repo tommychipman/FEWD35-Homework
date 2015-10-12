@@ -1,0 +1,46 @@
+.container {
+	width: 90%;
+	height: 1000px;
+	border: 5px solid yellow;
+}
+.margin-top {
+	margin-top: 10px;
+}
+
+.header-image{
+	width: 100%;
+	border: solid 5px gray;
+}
+
+.weather-text{
+	text-align: center;
+	font-size: 18px;
+}
+
+.conditions {
+	width: 50%;
+	height: 100px;
+	margin: 0;
+}
+.conditions-box {
+	border: gray 1px solid;
+}
+.navbar-brand{
+	width: 20px;
+	height: 5px;
+}
+img {
+	display: block;
+	margin: auto;
+}
+
+.satalites{
+	margin-top: 20px;
+text-align: center;}
+
+
+.divider{
+	margin-top: 10px;
+	border:solid gray 1px;
+}
+
