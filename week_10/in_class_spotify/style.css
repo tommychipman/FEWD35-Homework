@@ -1,0 +1,29 @@
+.container{
+	width: 75%;
+	text-align: center;
+	background-image:;
+	margin-top: 100px; 
+}
+
+.text{
+	color: green;
+	font-size: 25px;
+}
+
+h1, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: #2ed565;
+}
+
+.form-group{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto; 
+}
+input{
+	text-align: center;
+	
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Number 1's</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css"/>
+
+
+
+	<body>
+
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Artist #1's</h1>
+				<h3>Put your favorite artist name and get their best track! </h3>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" id="artist" placeholder="Your Favorite Artist Here">
+					</div>
+				</form>
+
+				<p><a class="btn btn-success btn-lg" href="#" role="button">Get #1 Track!</a></p>
+
+				<div id="container"></div>
+
+				<!-- Artist Info Album, track name -->
+				<script id="replace_info" type="text/x-handlebars-template">
+					<div class="text">{{trackName}}</div>
+
+
+
+
+					<!-- track sample -->
+					<audio controls>
+							<source src="{{previewUrl}}" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
+						</div>
+					</div>
+				</script>
+
+				<!-- JQuery -->
+				<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<script src="handlebars-v4.0.2.js"></script>
+				<script src="app.js"></script>
+
+
+			</body>
+			</html>

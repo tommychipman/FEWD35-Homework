@@ -40,6 +40,14 @@ $.ajax{
 
 });
 
+$.ajax{
+	type: "GET",
+	url: "ttp://daretodiscover.herokuapp.com/uers",
+	success: function(users)
+		$("tbody") append(template(user.length
+for(var i = 0; i < users.length; i++){
+	$("tbody").append(template(users[i]));
+
 
 // url: http://daretodiscover.herokuapp.com/uers
 

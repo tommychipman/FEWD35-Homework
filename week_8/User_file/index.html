@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users Ajax Example</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+
+<table class="table table-condensed">
+<thead>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Username</th>
+	<th>age</th>
+</thead>
+
+<tbody id="user-container">
+	<script id="users-template" type="text/x-handlebars-template">
+	// <!-- handlebars template this is what I want to be dynamic -->
+<tr>
+	<td>{{firstname}}</td>
+	<td>{{lastname}}</td>
+	<td>{{username}}</td>
+	<td>{{age}}</td>
+</tr>
+</script>
+</tbody>
+
+
+</table>
+
+
+
+
+
+
+<script src= "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="handlebars-v4.0.2.js"></script>\
+<script src="app.js"></script>
+</body>
+</html>
+
